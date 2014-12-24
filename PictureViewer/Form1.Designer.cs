@@ -302,7 +302,7 @@
             // 
             // timerSaveTimeOver
             // 
-            this.timerSaveTimeOver.Interval = 45000;
+            this.timerSaveTimeOver.Interval = 33000;
             this.timerSaveTimeOver.Tick += new System.EventHandler(this.timerSaveTimeOver_Tick);
             // 
             // timerSaveMainTime
