@@ -112,7 +112,7 @@ namespace MT3
             this.mask = capacity - 1;
             this.width = width;
             this.height = height;
-            this.savedir = @"C:\Users\Public\img_data\";
+            this.savedir = @"E:\img_data\";  // @"C:\Users\Public\img_data\";
             this.imgR = new IplImage(width, height, BitDepth.U8, 1);
         }
 

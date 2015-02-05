@@ -103,7 +103,6 @@ namespace MT3
 
         IplImage img_dmk3 = new IplImage(WIDTH, HEIGHT, BitDepth.U8, 3);
         IplImage img_dmk = new IplImage(WIDTH, HEIGHT, BitDepth.U8, 1);
-        // IplImage img_dark8 = Cv.LoadImage(@"C:\Users\Public\piccolo\dark00.bmp", LoadMode.GrayScale);
         IplImage img2 = new IplImage(WIDTH, HEIGHT, BitDepth.U8, 1);
         IplImage imgLabel = new IplImage(WIDTH, HEIGHT, CvBlobLib.DepthLabel, 1);
         CvBlobs blobs = new CvBlobs();
@@ -144,7 +143,7 @@ namespace MT3
         int mmFsiUdpPortSpCam = 24410;   // SpCam（受信）
         string mmFsiSC440 = "192.168.1.206";
         System.Net.Sockets.UdpClient udpc3 = null;
-        DriveInfo cDrive = new DriveInfo("C");
+        DriveInfo cDrive = new DriveInfo("E");
         long diskspace;
         
         //[DllImport("kernel32.dll")]
